@@ -19,7 +19,7 @@
     "targetFrameRate" : 30
   },
   "loading": {
-    "create": true,
+    "create": false,
     "logo": {
       "src": "Data/arNFT-logo.gif",
       "alt": "arNFT.js logo"
