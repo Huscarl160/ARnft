@@ -1,66 +1,66 @@
 {
-  "name": "@webarkit/ar-nft",
-  "version": "0.14.1",
-  "main": "dist/ARnft.js",
-  "types": "types/src/index.d.ts",
-  "description": "WebAR Javscript library for markerless AR",
-  "keywords": [
-    "ARToolKit",
-    "AR",
-    "ARnft",
-    "Augmented Reality",
-    "WebAR",
-    "JavaScript",
-    "jsartoolkit",
-    "jsartoolkit5",
-    "jsartoolkitNFT",
-    "NFT",
-    "Natural Feature Tracking",
-    "image tracking",
-    "markerless"
-  ],
-  "author": {
-    "name": "Walter Perdan",
-    "email": "github@kalwaltart.it",
-    "url": "https://www.kalwaltart.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/webarkit/ARnft"
-  },
-  "homepage": "https://github.com/webarkit/ARnft",
-  "contributors": [
-    "Github Contributors (https://github.com/webarkit/ARnft/graphs/contributors)"
-  ],
-  "bugs": {
-    "url": "https://github.com/webarkit/ARnft/issues"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.31",
-    "@types/stats.js": "^0.17.0",
-    "@types/uuid": "^8.3.3",
-    "prettier": "^2.6.1",
-    "rimraf": "^3.0.2",
-    "stats.js": "^0.17.0",
-    "ts-loader": "^9.2.8",
-    "typedoc": "^0.22.13",
-    "typescript": "^3.4.0",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2",
-    "worker-loader": "^3.0.8"
-  },
-  "scripts": {
-    "build-ts": "rimraf ./build && tsc && webpack --mode production",
-    "dev-ts": "rimraf ./build && tsc && webpack --mode development --progress --watch",
-    "docs": "typedoc",
-    "format-check": "prettier --check .",
-    "format": "prettier --write ."
-  },
-  "license": "LGPL-3.0",
-  "resolutions": {},
-  "dependencies": {
-    "@webarkit/jsartoolkit-nft": "^1.1.0",
-    "terser-webpack-plugin": "^5.3.1",
-    "uuid": "^8.3.2"
-  }
+    "name": "@webarkit/ar-nft",
+    "version": "0.14.1",
+    "main": "dist/ARnft.js",
+    "types": "types/src/index.d.ts",
+    "description": "WebAR Javscript library for markerless AR",
+    "keywords": [
+        "ARToolKit",
+        "AR",
+        "ARnft",
+        "Augmented Reality",
+        "WebAR",
+        "JavaScript",
+        "jsartoolkit",
+        "jsartoolkit5",
+        "jsartoolkitNFT",
+        "NFT",
+        "Natural Feature Tracking",
+        "image tracking",
+        "markerless"
+    ],
+    "author": {
+        "name": "Walter Perdan",
+        "email": "github@kalwaltart.it",
+        "url": "https://www.kalwaltart.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webarkit/ARnft"
+    },
+    "homepage": "https://github.com/webarkit/ARnft",
+    "contributors": [
+        "Github Contributors (https://github.com/webarkit/ARnft/graphs/contributors)"
+    ],
+    "bugs": {
+        "url": "https://github.com/webarkit/ARnft/issues"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.31",
+        "@types/stats.js": "^0.17.0",
+        "@types/uuid": "^8.3.3",
+        "prettier": "^2.6.1",
+        "rimraf": "^3.0.2",
+        "stats.js": "^0.17.0",
+        "ts-loader": "^9.2.8",
+        "typedoc": "^0.22.13",
+        "typescript": "^3.4.0",
+        "webpack": "^5.70.0",
+        "webpack-cli": "^4.9.2",
+        "worker-loader": "^3.0.8"
+    },
+    "scripts": {
+        "build-ts": "rimraf ./build && tsc && webpack --mode production",
+        "dev-ts": "rimraf ./build && tsc && webpack --mode development --progress --watch",
+        "docs": "typedoc",
+        "format-check": "prettier --check .",
+        "format": "prettier --write ."
+    },
+    "license": "LGPL-3.0",
+    "resolutions": {},
+    "dependencies": {
+        "@webarkit/jsartoolkit-nft": "^1.1.0",
+        "terser-webpack-plugin": "^5.3.1",
+        "uuid": "^8.3.2"
+    }
 }
